@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="DEVMILKのポートフォリオです" />
+  <title>サンプルポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="img/favicon.ico" />
+  <link rel="icon" href="img/favicon.ico" type="image/png" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- Header -->
+    <header class="header ">
+      <div class="container">
+        <p class="header-logo">
+          <a href="index.html">PORTFOLIO</a>
+        </p>
+          <nav>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#service">SERVICE</a></li>
+            <li class="nav-item"><a href="#works">WORKS</a></li>
+            <li class="nav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Profile -->
+    <main class="content">
+
+      <div class="profile-container">
+          <div class="profile">
+            <div class="profile-body">
+              <img class="profile-img" src="img/profile.jpg" alt="devmilkアイコン">
+              <div class="profile-inner">
+                デザイン、コーディング、WEBマーケティングをおこなっています。
+              </div>
+            </div>
+            <p class="scroll js-scroll"><a href="#service">View More</a></p>
+          </div> 
+      </div>
+
+      <!-- Service -->
+      <section class="section" id="service">
+        <div class="container">
+          <h2 class="title">SERVICE</h2>
+
+          <div class="service-list">
+            <div class="service-item">
+              <img src="img/design-wire.png" width="180"  height="180" alt="ライティング">
+              <h3 class="service-name">デザイン</h3>
+              <p class="service-details">
+                お客様のリクエストに沿って、XDやFigmaでWEBサイトやWEBアプリの設計を行います。ドラフトはXDやFigmaでプロトタイピングを作り、操作性を確認してもらいます。
+              </p>
+            </div>
+
+          <div class="service-item">
+            <img src="img/code-wire.png" width="180"  height="180" alt="デザイン">
+            <h3 class="service-name">コーディング</h3>
+            <p class="service-details">
+              LP～企業サイト、WEBアプリのコーディングを行います・画面仕様書やプロトタイピングにもとづいてコーディングしていきます。
+            </p>
+          </div>
+
+          <div class="service-item">
+            <img src="img/graph-wire.png" width="180"  height="180" alt="コーディング">
+            <h3 class="service-name">マーケティング</h3>
+            <p class="service-details">
+              LPサイトのコーディング、HTMLサイトのWordPress化、アプリのUIのコーディングを行っています。また、PHP、JSを使った簡易なプロジェクトも作ります。
+            </p>
+          </div>
+        </div>
+
+        <div class="service-wrapper">
+          <img src="img/DEMO-step.svg" alt="お取引フロー">
+        </div>
+
+        </div>
+      </section>
+
+      <!-- Works -->
+      <section class="section" id="works">
+        <div class="container">
+          <h2 class="title">WORKS</h2>
+
+          <div class="works-list">            
+            <div class="works-item">
+              <a href="#">
+                <img src="img/work_01.jpg" alt="ダッシュボード">
+              </a>
+                <h3 class="works-name"><a href="#">ダッシュボード</a></h3>
+            </div>
+
+            <div class="works-item">
+              <a href="#">
+                <img src="img/work_02.jpg" alt="カフェサイト">
+              </a>
+                <h3 class="works-name"><a href="#">カフェサイト</a></h3>
+            </div>
+
+            <div class="works-item">
+              <a href="#">
+                <img src="img/work_03.jpg" alt="自然保護団体">
+              </a>
+                <h3 class="works-name"><a href="#">自然保護のサイト</a></h3>
+            </div>
+          </div>
+
+          <div class="works-list">            
+            <div class="works-item">
+              <a href="#">
+                <img src="img/work_04.jpg" alt="ECサイト">
+              </a>
+                <h3 class="works-name"><a href="#">ECサイト</a></h3>
+            </div>
+
+            <div class="works-item">
+              <a href="#">
+                <img src="img/work_06.jpg" alt="会計ソフト">
+              </a>
+                <h3 class="works-name"><a href="#">会計ソフト</a></h3>
+            </div>
+
+            <div class="works-item">
+              <a href="#">
+                <img src="img/work_05.jpg" alt="分析レポート">
+              </a>
+                <h3 class="works-name"><a href="#">各種レポート</a></h3>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+       <!-- CONTACT -->
+       <section class="section" id="contact">
+        <div class="container">
+          <h2 class="title">お問い合わせ</h2>
+        <div class="wrapper">
+          <form>
+          <dl>
+            <dt><label for="name">お名前</label></dt>
+            <dd><input type="text" id="name" name="your-name" required="required"></dd>
+            <dt><label for="email">メールアドレス</label></dt>
+            <dd><input type="email" id="email" name="your-mail" required="required"></dd>
+            <dt><label for="message">ご用件</label></dt>
+            <dd><textarea id="message" name="your-message"></textarea></dd>
+          </dl>
+          <div class="contact-list">
+            <div class="submit"><input type="submit" value="送信"></div>
+             <div class="reset"><input type="reset" value="リセット" /></div>
+          </div>        
+        </form>
+      </div>
+        </div>
+      </section>
+
+    </main>
+    <a href="#top" class="gotop">TOP</a>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+          <div class="footer-list">
+            <div>
+            <ul>
+              <li><a href="#service">SERVICE</a></li>
+              <li><a href="#works">WORKS</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <div class="footer-logo">
+              <a href="index.html">PORTFOLIO</a>
+          </div>
+          </div>      
+      </div>
+      <p class="copyright">&copy;&thinsp;portfolio</p>
+    </footer>
+
+  </div>
+</body>
+</html>
