@@ -346,16 +346,80 @@ Navigation
 
 #contact .reset input {
   width: 100px;
-  background-color: #698f8c;
+  background-color: #f16060;
   color: #fff;
   padding: 10px 0;
-  border: solid 2px #698f8c;
+  border: solid 2px #f16060;
   border-radius: 2px;
   opacity: 1;
 }
 #contact .reset input:hover {
   opacity: 0.8;
 }
+
+/*--------------------------------
+ FAQ
+---------------------------------*/
+.faq-Box {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.faq-Box .faq-list dt,
+.faq-Box .faq-list dd {
+  display: flex;
+  align-items: baseline;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.faq-Box .faq-list dt {
+  background: #F5F5F5;
+}
+
+.faq-Box .faq-list dt p {
+  margin: 0;
+  padding-left: 15px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.faq-Box .faq-list dd p {
+  margin: 0;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.faq-Box .faq-list dt::before {
+  content: "Q";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #28988C;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+}
+
+.faq-Box .faq-list dd::before {
+  content: "A";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #f16060;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 960px) {
+  .faq-Box {
+    width: 95%;
+  }
+}
+
 
 /*--------------------------------
  footer
