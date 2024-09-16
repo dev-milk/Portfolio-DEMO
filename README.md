@@ -5,15 +5,13 @@
 Portfolio-DEMO は、ポートフォリオのHTMLとCSSのテンプレートです。 
 
 ## ライブレビュー
-
+https://dev-milk.github.io/Portfolio-DEMO/
 
 
 ## デザインカンプ
-
-
+https://devmilk.biz/wp-content/uploads/2024/09/Portfolio-DEMO_marked.pdf
 
 ## 利用条件
-
 本テーマソースは、個人・商用問わず無料でお使いいただけます。
 自由にカスタマイズしていただけますが、サポートは行っておりません。
 自己責任でお使いください。
@@ -22,5 +20,4 @@ Portfolio-DEMO は、ポートフォリオのHTMLとCSSのテンプレートで�
 
 
 ## 作者
-
 devsugar：https://github.com/dev-milk
